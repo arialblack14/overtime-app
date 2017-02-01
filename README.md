@@ -5,7 +5,7 @@ not get overtime each week.
 
 ## Models
 - Post -> date:date rationale:text
-- User -> Devise
+x User -> Devise
 - AdminUser -> STI
 
 ## Features:
