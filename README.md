@@ -18,7 +18,7 @@ not get overtime each week.
 ## UI:
 - x Bootstrap -> formatting
 - Icons from Font Awsome
-- Update the styles for forms
+- x Update the styles for forms
 
 ## Refactor TODOS:
 - x Add full_name method to users
