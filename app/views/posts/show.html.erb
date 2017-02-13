@@ -16,4 +16,5 @@
   </div>
 </div>
 
-<%= link_to 'Edit', edit_post_path(@post), class: "btn btn-primary" if policy(@post).update? %>
+<%= link_to '', edit_post_path(@post), class: "btn btn-primary glyphicon glyphicon-pencil action-icons" if policy(@post).update? %>
+<%= link_to '', post_path(@post), method: :delete, id: "delete_post_#{@post.id}_from_index", data: { confirm: "Are you sure?", remote: true }, class: 'btn btn-primary glyphicon glyphicon-trash action-icons' %>
